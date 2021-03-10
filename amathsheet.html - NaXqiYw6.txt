@@ -1,0 +1,104 @@
+   <!--Hook up to MathJAX CDN ASCIIML -->
+    <h1 style = "text-align:center" style="font-family:verdana" style="size:300%">
+        Lines are perpendicular if their slopes are negative reciprocals of 
+        eachother, meaning they multiply to `-1`.<br><br>
+        Trigonometric functions take in the measures of angles (in radians,
+        degrees, or gradians if you are feeling weird) and return the ratio of
+        sides of a right triangle from the unit circle.<br>
+        The inverses of trigonometric functions take in the ratios and return
+        the angle measurement(make note of what unit is it in).<br><br>
+        Finding the reference angle to an angle measured in degrees is 
+        fairly straightforward. You hack away `360@`s until it is less than
+        180 and then hack away an additional `90@`.<br><br>
+        Reference angles of angles measured in radians is more along the
+        thought of `pi/x` and multiples of that. <br><br>
+        When `a != 0`, there are two solutions to `ax^2 + bx + c = 0` and
+        they are<br>
+        `x = (-b +- sqrt(b^2-4ac))/(2a)` <br> <br>
+        Functions of this page are lines, `x^2`, `x^3`, `ln x`,
+        `e^x`, `sin, cos, tan`, their reciprocals and inverses.<br>
+        `cis` is used as shorthand for `cos theta + i sin theta`<br><br>
+        
+        These apply to logarithms of any base.<br>
+        `ln(mn) = ln m + ln n`<br>
+        `ln(m/n) = ln m - ln n`<br>
+        `ln(m^n) = n * ln(m)`<br><br>
+        
+        Logarithm and exponentiation are inverses of eachother.<br>
+        Changes of base is this. <br>
+        `log_b A = ln A/ln b`<br><br>
+        This equation relates slopes and a single point.<br>
+        `y - y_1 = m(x - x_1)`<br>
+        The usual form of the equation of a line<br>
+        `y = mx + b`<br>
+        The usual form of the slope of a line.<br>
+        `m=(y_2 - y_1)/(x_2 - x_1)`<br>
+        Remember slope is a `y/x` ratio, if you have one point and a slope
+        you can find another point and those two points can define the line.
+        <br><br>
+        This is the polar form of a complex number.<br>
+        `r cis theta`<br>
+        This is the usual form of a complex number.<br>
+        `a + bi`<br>
+        Complex numbers are best added and subtraced in `a + bi` form and 
+        multiplied and divided best in `r cis theta` form.<br>
+        `r cis theta` form is also best for taking roots.<br>
+        `r cos theta` gives the `a` of `a + bi`<br>
+        `r sin theta` gives the `b` of `a + bi`<br>
+        `r cis theta` is the same as `r e^(i theta)`<br>
+        `sqrt(a^2 + b^2)` gives the r of `r cis theta`<br>
+        `tan^-1 (b/a)` gives the `theta` of `r cis theta`<br><br>
+        Two complex numbers in polar form multiplied together is the `r` 
+        multiplied together `cis` angles added.<br>
+        `r_1 cis theta_1 * r_2 cis theta_2 = (r_1*r_2) cis (theta_1 + theta_2)`<br>
+        Division is a similar process.<br>
+        `(r_t cis theta_t) / (r_b cis theta_b) = (r_t/r_b)cis (theta_t - theta_b)`<br><br>
+        `Ax^2 + Bx + C` is often meant to be factored.<br>
+        The factors are usually of the form `(x + _ )(x + _)`<br>
+        The negative sign of the coefficient of `x^2` makes the factored 
+        form `(x + _)(x - _)`. <br>
+        The two blanks must add to the B and multiply to C.<br><br>
+        Arc Length (S) is related to angle and radius.<br>
+        `S = r theta`<br><br>
+        An x y point in terms of r and `theta`<br>
+        `r = sqrt(x^2 + y^2)`,`theta = tan^-1 (y/x)`<br><br>
+        An r `theta` point in x y terms<br>
+        `x = r cos theta` <br>
+        `y = r sin theta` <br><br>
+        Complex numbers are often succinctly noted as z.<br>
+        `z = a + bi`<br>
+        Cojugates of complex numbers change the plus operation to minus and
+        is denoted by `bar z`<br>
+        `z = a + bi`, `bar z = a - bi`<br>
+        `z * bar z` will be a real number.<br>
+        `z * bar z = a^2 + b^2`<br><br>
+        Roots of complex numbers start with putting the complex number in 
+        `r cis theta` form, then taking the nth root of r. A complex number can
+        show exactly n roots.  The `theta` is to be divided by the chosen n.
+        then `360 @` or `2 pi` is divided by n, which shows the space
+        between each root starting with the first one<br>
+        `root(n)r`, `theta/n`, `tau/n`<br>
+        `root(n)r cis theta/n, root(n)r cis (theta/n + the space)`,...<br><br>
+        It is best practice to work in either degrees or radians entirely in a 
+        given context. There may be junctions when you need to convert them.
+        The conversion idea is with `pi` and `180 @`.  Multiply the angle 
+        measurement you have by the ratio `pi/(180@)` or `(180@)/pi`.  Choose
+        the ratio which is reciprocal to what you have.<br><br>
+        These are called the double and half-angle identities that were
+        suggested to remember for Calculus.<br>
+        `sin 2x = 2 sin x cos x`<br>
+        `************`<br>
+        `cos 2x` <br>
+        `= cos^2 x - sin^2 x` <br>
+        `= 1 - 2 sin^2 x` <br>
+        `= 2 cos^2 x - 1`<br>
+        `************`<br>
+        `tan 2x = (2 tan x) /(1 - tan^2 x)`<br>
+        `cos^2 x = (1/2)(1 + cos 2x)`<br>
+        `sin^2 x = (1/2)(1 - cos 2x)`<br>
+        `sin (1/2)x = +- sqrt((1/2)(1 - cos x))`<br>
+        `cos (1/2)x = +- sqrt((1/2)(1 + cos x))`<br>
+        `tan (1/2)x = +- sqrt((1 - cos x)/(1 + cos x)`<br>
+        
+    </h1>
+<br>

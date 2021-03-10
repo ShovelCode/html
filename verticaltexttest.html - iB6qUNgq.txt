@@ -1,0 +1,126 @@
+<!--  My Code starts here -->
+This is a website designed to be as HTML 5 Compliant as possible while also being<br>
+navigable in both e-reader tablets such as the Amazon Kindle and text-only webbrowsers such as<br>
+the Lynx browser.<br>
+
+I guess that means we need some ground rules. 
+<list> 
+<li> text only </li> 
+<li> black and white only </li>
+<li> no images or sounds </li>
+<li> no text lines too wide</li>
+<li> Weebly adds some code for publishing</li>
+<li> w3 validation </li>
+<li> there are 16 errors from weebly's code alone </li>
+<li> This will be a single column page, three column coming later</li>
+<li> I have tried a table out, and will also test some advanced <br>
+Unicode sets, Lynx may have a problem with those <br></li>
+<li>I am currently investigating RTL and vertical text</li><br>
+</list>
+
+I would like to point out that the Kindle's browser can display<br>
+the vertical Mongolian text but can't render it correctly. <br>
+The letters are all disconnected.<br>
+Also the Reader view in iOS Safari re-renders the vertical text<br>
+to be horizontal.<br><br>
+I've been thinking that vertical text pages would have to be<br>
+custom tailored to have only horizontal scrolling since that<br>
+is the natural reading order for them and these pages are <br>
+designed to have only one scrolling direction.<br>
+<a href="kindle-unicode-test-page.html">Kindle(broken link)</a><br>
+
+Clearly though the Kindle and Lynx are very different browsers.<br>
+It would be fair to call the Lynx an anglophonic browser that<br>
+by it's very nature declines to support many HTML features.<br>
+So a page for it will have different ground rules.<br>
+<list>
+<li>Text Only</li>
+<li>Lots of br tags and a tags</li>
+<li>no center tags or header tags</li>
+<li>perhaps no p tag either</li>
+<li>Basic Unicode/old ASCII/English only</li>
+<li>Only vertical scrolling</li>
+</list><br>
+
+<h3>Greek</h3>
+Ά · Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ<br>
+Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ<br>
+υ φ χ ψ ω ϊ ϋ ό ύ ώ ϐ ϑ ϒ ϓ ϔ ϕ ϖ ϗ Ϙ ϙ Ϛ ϛ Ϝ ϝ Ϟ ϟ Ϡ ϡ Ϣ ϣ<br>
+Ϥ ϥ Ϧ ϧ Ϩ ϩ Ϫ ϫ Ϭ ϭ Ϯ ϯ ϰ ϱ ϲ ϳ ϴ ϵ ϶<br>
+<h3>[RTL-seperated] Hebrew</h3>
+א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ 
+<br>
+<h3>[RTL-connected] N'ko</h3>
+ߞߏ ߡߍ߲ ߞߵߊ߬ ߞߍ߫ ߊ߲ ߛߋ߫ ߘߊ߫ ߞߊ߬ ߕߟߋ߬ߓߊ߰ߓߟߐߟߐ<br> 
+ߘߊߦߟߍ߬ ߒߞߏ ߦߋ߫ ߸ ߊ߲ ߧߴߊ߲ ߞߊߘߊ߲߫ ߏ߬ ߘߐ߫ ߞߙߊߕߊߕߊ߫ ߞߊ߬ ߒ߬ ߓߊߘߋ߲<br>
+ߕߐ߬ߡߊ ߟߎ߬ ߟߊߞߍ߫ ߊ߬ ߞߊ߬ߟߊߡߊ߬߸ ߞߵߊ߬ߟߎ߬ ߡߊߛߊ߬ߡߊ߲߫ ߞߵߊ߬ߟߎ߬ ߡߊߘߏ߲߬ ߒ߬ ߠߊ߫ ߒߞߏ ߛߘ<br>
+ߊߟߊ߫ ߞߏߓߊ ߣߌ߲߬ ߞߊߡߊ߲ ߞߣߐ߫߸ ߏ߬ ߘߏ߲߬ ߕߴߛߋ߫ ߘߊߓߊ߲߫ ߠߊ߫<br> 
+ߝߋߎ߫ ߝߏ߫ ߊ߬ߟߎ߬ ߦߋ߫ ߛߋ߫ ߞߊ߬ ߓߟߐߟߐ ߞߐߜߍ ߟߎ߬ ߡߊߝߟߍ߫<br>
+ߟߴߊ߬ߟߎ߫ ߖߘߍ߬ ߦߋ߫ ߊ߬ߟߎ߬ ߟߊ߫ ߕߟߋ߬ߓߊ߮ ߟߎ߬ ߟߊ߫ ߣߐ߰ߦߊ߫<br>
+ߘߐ߫ ߸ ߣߌ߲߬ ߘߏ߲߬ ߕߊ߬ߣߍ߲߫ ߒߞߏ ߟߊ߫<br> 
+ߖߘߍ߬ߛߐߘߐ߲ ߛߌߟߊ߫ ߓߐߣߍ߲ ߠߎ߫ ߓߎ߭ ߟߋ߫ ߡߊ߬<br>
+<h3>[LTR-connected] Hindi</h3>
+ ये अनुच्छेद हिन्दी में है।<br>
+<h3>Canadian Aboriginal</h3>
+ᐎ ᐏ ᐐ ᐑ ᐒ ᐓ ᐔ ᐕ ᐖ ᐗ ᐘ ᐙ ᐚ<br>
+<table border="1">
+<th>numbers</th>
+<tr><td>one</td><td>two</td><td>three</td></tr>
+</table>
+<style type="text/css" id="Mongolian">
+/* The font specified here is modified by the Font Configuration form */
+.mongolian
+{
+	font-family: 'Mongolian Baiti', 'Code2000', 'SimSun-18030';
+	font-size: '36pt';
+	line-height: normal;
+}
+
+/* This formats the text as vertical left-to-right text (supported in IE6 and later) */
+.tbrl
+{
+	layout-flow: vertical-ideographic;
+	-webkit-text-orientation: sideways-right;
+	-webkit-writing-mode: vertical-rl;
+	-moz-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;
+	-o-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+	vertical-align:top;
+}
+
+/* This formats the text as vertical left-to-right text (supported in IE8) */
+.tblr
+{
+	layout-flow: vertical-ideographic;
+	-webkit-text-orientation: sideways-right;
+	-webkit-writing-mode: vertical-lr;
+	-moz-writing-mode: vertical-lr;
+	-ms-writing-mode: vertical-lr;
+	-o-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+	vertical-align:top;
+}
+</style>
+<br>Ok so with style and span tags vertical can be done.<br>
+<h3>[rtl-vertical-connected] Classical Mongolian</h3>
+<span class="mongolian tblr">
+<!-- N.B. In order to ensure that each line is displayed as a single line on screen the normal spaces between Mongolian words have been replaced by non-breaking spaces -->
+<!-- Line 01 -->ᠡᠷᠲᠡ ᠤᠷᠢᠳᠠ ᠺᠠᠪᠠᠯᠢᠺ ᠪᠠᠯᠭᠠᠰᠤᠨ ᠳᠤᠷ ᠪᠢᠷᠠᠮᠠᠨ ᠤ ᠬᠠᠮᠤᠭ ᠤᠬᠠᠭᠠᠨ ᠤ ᠵᠦᠢᠯ ᠳᠦᠷ ᠮᠡᠷᠭᠡᠨ ᠪᠣᠯᠤᠭᠰᠠᠨ ᠰᠠᠢᠨ ᠲᠥᠷᠥᠯ ᠲᠦ ᠬᠡᠮᠡᠬᠦ<br/>
+<!-- Line 02 -->ᠨᠢᠭᠡᠨ ᠪᠢᠷᠠᠮᠠᠨ ᠪᠦᠯᠦᠭᠡ᠃ ᠲᠡᠷᠡ ᠪᠢᠷᠠᠮᠠᠨ ᠳᠤᠷ ᠰᠡᠳᠬᠢᠯ ᠳᠤᠷ ᠲᠠᠭᠠᠯᠠᠬᠤ ᠨᠡᠷᠡᠲᠦ ᠨᠢᠭᠡᠨ ᠬᠠᠲᠤᠭᠲᠠᠢ ᠪᠦᠯᠦᠭᠡ᠃ ᠲᠡᠷᠡ ᠬᠣᠶᠠᠷ <br/>
+<!-- Line 03 -->ᠠᠴᠠ ᠨᠢᠭᠡᠨ ᠬᠥᠪᠡᠭᠦᠨ ᠲᠥᠷᠥᠵᠦᠬᠦᠢ᠃ ᠲᠡᠷᠡ ᠬᠥᠪᠡᠭᠦᠨ ᠢᠨᠤ ᠦᠴᠦᠭᠦᠬᠡᠨ ᠡᠴᠡ ᠭᠡᠭᠡᠨ ᠣᠶᠤᠲᠤ ᠶᠡᠬᠡᠰ ᠦᠨ ᠶᠠᠪᠤᠳᠠᠯ ᠢᠶᠠᠷ ᠶᠠᠪᠤᠭᠴᠢ<br/>
+<!-- Line 04 -->ᠨᠢᠭᠡᠨ ᠪᠣᠯᠪᠠᠢ᠃ ᠲᠡᠨᠳᠡ ᠡᠬᠡ ᠢᠨᠤ ᠠᠶ᠎ᠠ ᠡᠨᠡ ᠬᠥᠪᠡᠭᠦᠨ ᠲᠥᠷᠥᠭᠡᠳ ᠰᠠᠴᠠ ᠶᠡᠬᠡᠰ ᠦᠨ ᠶᠠᠪᠤᠳᠠᠯ ᠢᠶᠠᠷ ᠶᠠᠪᠤᠭᠴᠢ ᠭᠡᠭᠡᠨ ᠣᠶᠤᠲᠤ<br/>
+<!-- Line 05 -->ᠪᠦᠬᠦ ᠶᠢᠨ ᠲᠤᠯᠠ᠃ ᠮᠠᠭᠠᠳ ᠨᠢᠭᠡᠨ ᠵᠠᠶᠠᠭ᠋᠎ᠠ ᠲᠤ ᠪᠤᠢ ᠵ᠎ᠠ ᠬᠡᠮᠡᠵᠦ᠃ ᠭᠡᠢᠭᠰᠡᠨ ᠬᠡᠮᠡᠨ ᠨᠡᠷ᠎ᠡ ᠥᠭᠭᠦᠭᠡᠳ᠃ ᠠᠢ ᠡᠨᠡ ᠬᠥᠪᠡᠭᠦᠨ <br/>
+<!-- Line 06 -->ᠳ᠋ᠦᠷ ᠬᠠᠮᠤᠭ ᠤᠬᠠᠭᠠᠨ ᠤ ᠵᠦᠢᠯ ᠢ ᠰᠤᠷᠭᠠᠰᠤᠭᠠᠢ ᠬᠡᠮᠡᠵᠦ ᠪᠦᠷᠦᠨ᠃ ᠡᠴᠢᠭᠡ ᠡᠬᠡ ᠬᠣᠶᠠᠷ ᠪᠡᠷ ᠰᠤᠷᠭᠠᠭᠰᠠᠨ ᠳᠤᠷ᠃ ᠳᠥᠷᠪᠡᠯ<br/>
+<!-- Line 07 -->ᠦᠭᠡᠢ ᠮᠡᠳᠡᠬᠦᠢ ᠨᠢᠭᠡᠨ ᠪᠣᠯᠪᠠᠢ᠃ ᠲᠡᠷᠡ ᠬᠥᠪᠡᠭᠦᠨ ᠢᠨᠤ ᠳᠣᠯᠣᠭᠠᠨ ᠵᠢᠯ ᠪᠣᠯᠤᠭᠰᠠᠨ ᠳᠤᠷ᠃ ᠪᠢᠷᠠᠮᠠᠨ ᠤ ᠤᠬᠠᠭᠠᠨ ᠤ ᠵᠦᠢᠯ ᠳᠦᠷ<br/>
+<!-- Line 08 -->ᠮᠡᠷᠭᠡᠨ ᠪᠣᠯᠤᠭᠰᠠᠨ ᠡᠷᠳᠡᠮ ᠦᠳ ᠢᠨᠤ ᠬᠠᠮᠤᠭ ᠪᠦᠭᠦᠳᠡᠭᠡᠷ ᠲᠦᠷ ᠰᠣᠨᠣᠰᠲᠠᠭᠰᠠᠨ᠋᠎ᠠ᠃ ᠲᠡᠷᠡ ᠴᠠᠭ ᠲᠤᠷ ᠺᠠᠪᠠᠯᠢᠺ ᠪᠠᠯᠭᠠᠰᠤᠨ ᠳᠠᠬᠢᠨ ᠤᠬᠠᠭᠠᠨ ᠤ<br/>
+<!-- Line 09 -->ᠵᠦᠢᠯ ᠳᠦᠷ ᠮᠡᠷᠭᠡᠨ ᠪᠣᠯᠤᠭᠰᠠᠨ ᠬᠠᠮᠤᠭ ᠪᠢᠷᠠᠮᠠᠨ ᠴᠢᠭᠤᠯᠵᠤ ᠤᠬᠠᠭᠠᠨ ᠤ ᠵᠦᠢᠯ ᠳᠦᠷ ᠲᠡᠮᠡᠴᠡᠭᠰᠡᠨ ᠳᠦᠷ᠃ ᠪᠢᠷᠠᠮᠠᠨ ᠤ ᠭᠡᠢᠭᠰᠡᠨ ᠬᠥᠪᠡᠭᠦᠨ<br/>
+<!-- Line 10 -->ᠮᠠᠱᠢ ᠶᠡᠬᠡ ᠦᠯᠡᠮᠵᠢ ᠪᠣᠯᠤᠭᠰᠠᠨ ᠳᠤᠷ᠃ ᠲᠡᠳᠡᠭᠡᠷ ᠪᠢᠷᠠᠮᠠᠨ ᠥᠭᠦᠯᠡᠷ ᠦᠨ᠃ ᠠᠢ ᠬᠥᠪᠡᠭᠦᠨ ᠠ᠋ ᠨᠠᠰᠤᠨ ᠴᠢᠨᠤ ᠡᠢᠮᠦ ᠵᠠᠯᠠᠭᠤ<br/>
+<!-- Line 11 -->ᠪᠥᠭᠡᠲᠡᠯ᠎ᠡ᠃ ᠤᠬᠠᠭᠠᠨ ᠤ ᠵᠦᠢᠯ ᠳᠦᠷ ᠡᠨᠡ ᠮᠡᠲᠦ ᠮᠡᠷᠭᠡᠨ ᠪᠣᠯᠤᠭᠰᠠᠨ ᠬᠡᠷ ᠪᠤᠶᠤ ᠬᠡᠮᠡᠨ ᠠᠰᠠᠭᠪᠠᠰᠤ᠃ ᠬᠥᠪᠡᠭᠦᠨ ᠥᠭᠦᠯᠡᠷ ᠦᠨ᠃<br/>
+<!-- Line 12 -->ᠲᠣᠭᠣᠯᠤᠭᠰᠠᠨ ᠪᠤᠷᠬᠠᠨ ᠪᠡᠷ ᠪᠠᠭᠱᠢ ᠮᠢᠨᠤ ᠪᠤᠢ᠃ ᠪᠣᠭᠳᠠᠰ ᠤᠨ ᠨᠣᠮ ᠪᠡᠷ ᠢᠪᠡᠭᠡᠭᠴᠢ ᠮᠢᠨᠤ ᠪᠤᠢ᠃ ᠪᠤᠷᠰᠠᠩ ᠬᠤᠸᠠᠷᠠᠭ ᠤᠳ ᠪᠡᠷ<br/>
+<!-- Line 13 -->ᠤᠳᠤᠷᠢᠳᠳᠤᠭᠴᠢ ᠮᠢᠨᠤ ᠪᠤᠢ᠃ ᠭᠤᠷᠪᠠᠨ ᠡᠷᠳᠡᠨᠢᠰ ᠦᠨ ᠠᠳᠢᠰᠲᠢᠳ ᠬᠢᠭᠰᠡᠨ ᠦ ᠬᠦᠴᠦ ᠪᠡᠷ ᠦᠢᠯᠡ ᠦᠷᠡᠰ ᠲᠦᠷ ᠦᠨᠡᠮᠱᠢᠭᠰᠡᠨ ᠦ ᠲᠤᠯᠠ᠃<br/>
+<!-- Line 14 -->ᠰᠡᠱᠢᠭ ᠦᠭᠡᠢ ᠡᠷᠲᠡ ᠱᠢᠯᠲᠠᠭᠠᠨ ᠤ ᠬᠥᠷᠥᠩᠭᠡ ᠰᠠᠴᠤᠭᠰᠠᠨ ᠳᠤᠷ᠃ ᠦᠷ᠎ᠡ ᠦᠯᠦ ᠬᠣᠮᠰᠠᠳᠬᠤ ᠪᠤᠶᠠᠨ ᠢ ᠬᠢᠴᠢᠶᠡᠭᠰᠡᠨ ᠪᠤᠢ᠃ ᠨᠠᠰᠤᠨ<br/>
+<!-- Line 15 -->ᠮᠢᠨᠤ ᠵᠠᠯᠠᠭᠤ ᠪᠣᠯᠪᠠᠰᠤ᠃ ᠤᠬᠠᠭᠠᠨ ᠤ ᠵᠦᠢᠯ ᠳᠦᠷ ᠮᠡᠷᠭᠡᠨ ᠪᠣᠯᠤᠭᠰᠠᠨ ᠤ ᠤᠴᠢᠷ ᠲᠡᠢᠮᠦ ᠪᠤᠢ ᠅    ᠅<br/>
+</span>
+
+<!-- My code ends here -->

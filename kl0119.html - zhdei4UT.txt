@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body class='  wsite-theme-light'>
+<!--  My Code starts here -->
+<h1>A Software Development Blog</h1>
+
+<h4>This Page</h4>
+<p>This page will aim to only display the front of Unicode and have no images or tables so as to make it viewable easily with
+the Lynx browser, and the reader mode of mobile browsers.  Code blocks will also not be in this page. Other pages will
+be linked from here for investigating Unicode display, code, and tables.  Later on possibly black/white/gray graphs and 
+images that are meant to be viewed with an ereader.  There are not timestamps here.  Time doesn't exist on this page. This
+site is a soft part of your consciousness for you to think.  </p>
+
+<h4>We Should Love-Hate APL</h4>
+<p>APL is 50+ years old programming language that excels at multidimensional array manipulation. [rest of article
+coming]</p>
+<h4>Lisp and Haskell</h4>
+<p>The general activities of software developers can be split into two as systems programming and application programming. 
+These further can be split into two as construction (setting and getting) and algorithm research. 
+Thus there are four quadrants. Most of the computing needs of humanity are systems programming and construction. 
+This includes communication, text, images, videos, and database management. Essentially software only needs to replace paper, ink,
+radio, and television. Mutation is not just a result of limited memory in those domains, it is the desire. 
+Lisp, Haskell, and the rest of the research languages are for exotic algorithms in the neatly garbage collected application layer. 
+There has been no need for them outside of esoteric math applications(which are very honorable) until recently. 
+To their communities I say be patient your day is coming you have labored without payment, growing these
+research languages in the dark like a garden of mushrooms, but good old construction is here to stay.</p>
+<h4>File Formats</h4>
+<p>In my car I listen to the recordings of a bunch of guys 
+<a href="https://www.youtube.com/user/SmogonU/videos">discussing the theory of competitive Pokemon battling</a>. Constantly. 
+These recordings after they happen live are uploaded as a dreaded Flash Video on YouTube.  Another webpage can take the URL
+of this YouTube video and convert its sound into an mp3 file.  This video was viewed and converted on a proprietary closed
+browser running on a proprietary closed operating system.  Then these mp3 files were moved onto a flashdrive with a 
+proprietary closed file manager.  Then I took that flashdrive and and plugged it into the USB port of my car's audio system.
+It starts up insantly and has no user acccount control.  This audio software in my car is proprietary and closed.
+So much proprietary software but what's that?  It doesn't matter because the open standard file format (mp3) is supported from
+a standard interface (USB).  USB given to us from the electric engineers.  The mp3 format is the software developer's child.
+The lesson here is clear:  Open File Formats (and storage formats for that matter) matter more than open source software.  Relax
+and take joy in that.</p>
+
+<h4>Rust and Go</h4>
+<p>I've mentioned before the overly bloated software that developers have created.  This is understandable given the youth of
+Informatics.  It is a younger field that Psychology.  Much like Psychology it has difficult in creating unified vocabulary
+and has blind schools of thought.  Class based Object Oriented Programming, especially on the JVM and .NET may be one of
+those blind alleys.  Given more time to contemplate we see the birth of Rust and Go, languages carefully crafted for a
+purpose.  Rust for kernels and systems programming and Go for application layer software.  Go does away with class OO and 
+instead has functions associated with structures accessed with a dot (looks the same but is not).   Go applications run
+on a bunch of little VMs instead of one big one like Java.  Rust and Go imparticular have taken great influence from
+research languages like Haskell and Lisp.  Common Lisp still has a role of course.  The needs that bore them are parallelism,
+speed, the usual safety concerns, and internationalization(Unicode characters allowed from the get-go).  Rust
+and Go see rapid development every day on GitHub.  Is it another blind alley or the new carefully selected path?</p>
+<h4>We can't love Linux too much</h4>
+<p><a href="http://www.infoworld.com/article/3019852/linux/how-linux-won-without-winning.html">This post</a> from Infoworld echoes
+my sentiment that Android and ChromeOS don't count as "being Linux" and that Linux is not really "winning" anything, and that's
+fine.  I tell others that Linux is a kernel which I describe as the invisible part of an operating system.  Alternatively I
+call it the operating system for servers.  The Free and Open Source <i>process</i>  is more important than any single project. 
+Windows, MacOS, FreeBSD, and Linux will all fade one day but the FOSS process won't.  Git is Linus Torvald's greatest 
+accomplishment.  </p>
+<h4>What we can learn from the Atari Portfolio</h4>
+<p>The Atari Portfolio was the small computer that the kid in Terminator 2 used to hack an ATM.  It had a monochromatic display that
+could only draw straight lines and characters.  It booted immediately to a DOS clone and could only really make
+text files and Lotus inspired spreadsheets.  This is an example of true computing with a focus and purpose.  I guarantee that thing
+starts up faster than today's ultrabooks and can produce useful data with its spreadsheet program.  It came out in 1989 and can
+still talk up to a Windows Vista computer.  It didn't need color or images or even user account control.  Single user. Single
+purpose, nothing unneeded for that purpose and it did this all fast.  Additionally being a DOS clone OS it shows that <i>not
+everyone wants Unix</i>.  A FOSS 3D printed clone of the Atari Portfolio is a project someone should look at.</p>
+<h4>A Loveletter to the Kindle</h4>
+<p>Even the Atari Portfolio had a speaker for indication beeps.  First let me sing odes to the Kindle for forgoing any kind of 
+speaker and being a modern computing device that <i>shuts the fuck up</i> out of the box.  A device with purpose.  It can be 
+read in direct sunlight, and can display most standard HTML, thus inspiring this website.  I have on it all the works of Plato,
+the Oracle Java reference, and War and Peace just to name a few.  Thousands of pages compressed into a snug device.  In an era where
+every gizmo has time wasting games the Kindle and e-readers of its domain return computing back to the original purpose of saving
+us time and space.</p>
+<h4>Chrome OS</h4>
+<p>My little ChromeOS laptop with only 2GB of memory and 10 GB of SSD is my most used computing device.  In fact this article is
+being written with it right now.  It is Linux based but very much Google's OS.  It is what a corporate OS should be, fast, focused,
+batteries included, and despite being Google not bombarding me with <i>advertisement built into the OS</i>.  I can't say the same
+for Windows 10.</p>
+
+<h4>Energy Technology and Electrical Engineering</h4>
+<a href="http://www.pureenergysystems.com/store/Rosch/KPP/">
+Some Swiss say they have a universal energy device using buoyantcy</a><br>
+<a href="http://pesn.com/2015/12/03/9602697_Steorns-Orbo-power-cell_products-available-for-sale/">
+Self charging phones</a><br>
+<a href="https://www.youtube.com/watch?v=6dEFPws4BiQ">A Pacific island goes all solar</a><br>
+<a href="https://www.youtube.com/watch?v=vv-k16e0M40">Alledgedly special Brazilian desk fans</a><br>
+<a href="https://www.youtube.com/watch?v=ALaCJWpWJgk">Gravity Powered Lamp</a><br>
+<a href="https://www.youtube.com/watch?v=rpGBXlbw1Co">China Builds New Islands in the South China Sea</a><br>
+<a href="https://www.raspberrypi.org/products/pi-zero/">Raspberry Pi Zero stays at 5 USD</a><br>
+<a href="http://www.iter.org/album/Media/5%20-%20Site%20milestones">ITER Reactor Has come a long way in 2015</a><br>
+<a href="http://www.pppl.gov/news">North American fusion coming along as well</a><br>
+<a href="https://www.soylent.com/">12 Soylent Bottles:  30 USD</a><br>
+
+<p>That is quite a bit of interesting news there.  I consider this all related.  In the era of
+abundant clean energy, mountains can be made into new plains of land, all topped off with 
+commodity computers that can read websites such as these.  I think Palau, The Marshall Islands,
+and Micronesia could benefit from Chinese sand building.  Perhaps those islands are a shallow
+flooded larger island.  The fusion reactor is best for continents and eventually for nuclear
+electric space craft. </p>
+
+<h4>Soylent</h4>
+<p>I consider this energy related news because Soylent and water are the theoretical perfect fuel
+for humanity (coffee being the nitrus booster).  Rosa Labs really ought to quit wasting time with
+marketing to techie first worlders.  A push in India and China could make the product globally
+ubiquitous and make the founders billionaires. Soylent could also see other exotic uses. Imagine
+a clean <i>bioengine</i> that we feed with the same stuff we feed ourselves.  I've begun feeding it
+to a cactus. </p>
+
+<h4>Some general blogging</h4>
+<p>
+Ok rant time.  Hardware engineers have given us a paradise to work with
+but we software engineers have ruined it with  overly bulky solutions
+to problems that don't exist while ignoring real ones.
+
+Why has it taken 25 years to have standardized HTML for displaying mathematical
+and scientific notation?  Aren't we supposed to be their friends?
+But no we are perverted and only care about trannies posting selfies
+of their buttholes on Tumblr. 
+
+We suck at entrepreneurship.  As Mr. Trump has demonstrated just being rich
+does not qualify you for anything.
+
+Facebook is way too much code for its purpose.
+So are most operating systems including the open source stuff.
+
+Some projects like Ericsson and WhatsApp are true progress. 
+Also hipster projects like kindlelynx.weebly.com :P
+<br>
+<a href="http://www.ltg.ed.ac.uk/~richard/unicode-sample-3-2.html">Unicode Test Page</a><br>
+<br>
+<p>
+This is a website designed to be as HTML 5 Compliant as possible while also being
+navigable in both e-reader tablets such as the Amazon Kindle and text-only webbrowsers such as
+the Lynx browser.</p>
+<br>
+LOC for <a href="http://www.nytimes.com">nytimes.com</a>: > 3500 <br>
+
+I guess that means we need some ground rules. 
+<list> 
+<li> text only </li> 
+<li> black and white only </li>
+<li> no images or sounds </li>
+<li> no text lines too wide</li>
+<li> Weebly adds some code for publishing</li>
+<li> w3 validation </li>
+<li> there are 16 errors from weebly's code alone </li>
+<li> This will be a single column page, three column coming later</li>
+<li> I have tried a table out, and will also test some advanced <br>
+Unicode sets, Lynx may have a problem with those <br></li>
+<li>I am currently investigating RTL and vertical text</li><br>
+</list>
+
+I would like to point out that the Kindle's browser can display<br>
+the vertical Mongolian text but can't render it correctly. <br>
+The letters are all disconnected.<br>
+Also the Reader view in iOS Safari re-renders the vertical text<br>
+to be horizontal.<br><br>
+I've been thinking that vertical text pages would have to be<br>
+custom tailored to have only horizontal scrolling since that<br>
+is the natural reading order for them and these pages are <br>
+designed to have only one scrolling direction.<br>
+
+Clearly though the Kindle and Lynx are very different browsers.<br>
+It would be fair to call the Lynx an anglophonic browser that<br>
+by it's very nature declines to support many HTML features.<br>
+So a page for it will have different ground rules.<br>
+<list>
+<li>Text Only</li>
+<li>Lots of br tags and a tags</li>
+<li>no center tags or header tags</li>
+<li>perhaps no p tag either</li>
+<li>Basic Unicode/old ASCII/English only</li>
+<li>Only vertical scrolling</li>
+</list><br>
+
+
+<!-- My code ends here -->
+
+<div style='display:none'>{title}</div>
+<div style='display:none'>{menu}</div>
+<div style='display:none'>{content}</div>
+<div style='padding: 20px; width:100%; text-align:center;'>{footer}</div>
+</body>
+</html>
