@@ -1,0 +1,21 @@
+. Movement away from Flash video and programs
+
+- Game Related -
+. Javascript/WebGL:
+    . PTCG
+    . Official YGO Sim
+    . Reviving BAM.
+    . Possibly even Hearthstone
+. Command Line Showdown
+. Showdown with my ideas implemented
+   . Mirroring
+   
+. Game engines and mappers for old ROM types
+   (SMC, GBC, etc)
+   
+. WAD analyzer
+
+. game in Streem and Haskell, expression based games
+ . HTML/JavaScript/WebGL (webcluster) preservation of emulated ROM formats.
+
+. Doom maps by code

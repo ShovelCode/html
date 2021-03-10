@@ -1,0 +1,24 @@
+<html>
+
+<head>
+<title>UTPB Science Fair</title>
+</head>
+
+<body>
+<h1>UTPB Science Fair Database Search</h1>
+
+<form action ="results.php" method="post">
+Choose Search Type: <br>
+<select name="searchtype">
+<option value="author">Column1 Attribute</option>
+<option value ="title">Column2 Attribute</option>
+<option value="isbn">Column3 Attribute</option>
+</select>
+<br>
+Enter Search Term: <br>
+<input name="searchterm" type="text" size="40">
+<br>
+<input type="submit" name="submit" value="Search">
+</form>
+</body>
+</html>
